@@ -1,6 +1,6 @@
-# Waves Explorer
+# BNS Explorer
 
-Waves Blockchain Explorer is available on https://wavesexplorer.com
+BNS Blockchain Explorer is available on https://fftexplorer.com
 
 ## Setup
 
@@ -22,11 +22,11 @@ yarn install
 yarn start
 ```
 
-Your browser will open local version of Waves Explorer automatically.
+Your browser will open local version of BNS Explorer automatically.
 
 ## Build
 
-Build process creates ./dist directory with Waves Explorer distribution that supports mainnet, testnet and a custom network. 
+Build process creates ./dist directory with BNS Explorer distribution that supports mainnet network. 
 To create the distribution, run from the project directory:
 ```
 gulp buildOfficialProd
