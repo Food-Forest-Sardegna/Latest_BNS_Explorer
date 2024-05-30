@@ -1,15 +1,15 @@
 import React from 'react';
 
-const socialLinks = [{
+const socialLinks = [
+{
     id: 'github',
     url: 'https://foodforestsardegna.gitbook.io/educational-library/'
-}, {
-    id: 'discord',
-    url: 'https://www.instagram.com/foodforestsardegna/'
-}, {
+}, 
+{
     id: 'telegram',
-    url: 'https://telegram.me/FoodForestSardegna'
-}];
+    url: 'https://telegram.me/+IHQKlfg7iiY3MTM0'
+}
+];
 
 const Footer = ({version}) => {
     return (
