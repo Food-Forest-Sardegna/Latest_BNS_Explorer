@@ -14,14 +14,14 @@ const socialLinks = [
 const Footer = ({version}) => {
     return (
         <div className="menu-footer">
-            <div>Version</div>
-            <div>FFT Team</div>
+            <div>Version: 1.0.0</div>
+            <div>DFN Natzione Sardìnnia</div>
             <div>
                 {socialLinks.map(item =>
                     (<a key={item.id} className={`social ${item.id}`} href={item.url} target="_blank"></a>))}
             </div>
             <div>
-                <a className="fade" href="https://fftexplorer.com" target="_blank">FFT</a>
+                <a className="fade" href="https://natzionesardinnia.com" target="_blank">Website</a>
             </div>
         </div>
     );
