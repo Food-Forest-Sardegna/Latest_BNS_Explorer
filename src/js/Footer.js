@@ -2,13 +2,14 @@ import React from 'react';
 
 const socialLinks = [
 {
-    id: 'github',
-    url: 'https://foodforestsardegna.gitbook.io/educational-library/'
-}, 
-{
     id: 'telegram',
     url: 'https://telegram.me/+IHQKlfg7iiY3MTM0'
+},
+{
+    id: 'github',
+    url: 'https://github.com/Food-Forest-Sardegna'
 }
+
 ];
 
 const Footer = ({version}) => {
